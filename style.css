@@ -124,15 +124,12 @@ h4{
      }
      h4{
         font-size: 12px;
-        margin-top: 0;
         margin-left: 12px;
+        margin-top: 0;
      }
      .forms-group .label-text{
         margin-left:10px;
-        font-size: 10px;
-     }
-     .forms-group{
-        margin-top:0;
+        font-size: 12px;
      }
      .forms-group .forms-control{
         width: 100%;
@@ -140,15 +137,16 @@ h4{
         height: 40px;
         margin-left: 10px;
         border-radius: 5px;
-
+        margin-top: 0;
+        margin-bottom: 10px;
      }
      .check-box{
-        font-size: 10px;
+        font-size: 12px;
         margin-left: 10px;
         
      }
      .check-action{
-        font-size: 10px;
+        font-size: 12px;
      }
      .btn-sign-in .btn-1{
         height: 40px;
