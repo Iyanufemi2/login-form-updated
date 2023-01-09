@@ -116,24 +116,46 @@ h4{
      .login-wrapper .inner{
         max-width:300px;
      }
+     .title img{
+        margin-left: 120px;
+     }
      h2{
         margin-top: 5px;
      }
      h4{
-        margin-top: 5px;
+        font-size: 12px;
+        margin-top: 0;
+        margin-left: 12px;
+     }
+     .forms-group .label-text{
+        margin-left:10px;
+     }
+     .forms-group{
+        margin-top:0;
      }
      .forms-group .forms-control{
         width: 100%;
         padding: 10px;
-        height: 45px;
+        height: 40px;
+        margin-left: 10px;
+
+     }
+     .check-box{
+        font-size: 10px;
+        margin-left: 10px;
+        
      }
      .btn-sign-in .btn-1{
-        height: 45px;
+        height: 40px;
         padding: 5px;
+        margin-top: 20px;
+        margin-left: 12px;
     }
     .btn-sign-in .btn-2{
-        height: 45px;
+        height: 40px;
         padding:5px ;
+        margin-top:20px;
+        margin-left: 12px;
     }
     .action{
         margin-left:50px;
