@@ -1,0 +1,141 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family:sans-serif 'Courier New', Courier, monospace;
+}
+.login-wrapper{
+    display:flex;
+    align-items: center;
+    position: relative;
+    height: 100%;
+    top: 50%;
+    position: relative;
+}
+ .title img{
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin-left: 150px;
+    margin-top: 0;
+}
+ h2{
+    text-align: center;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding-bottom: 10px;
+    margin-top: 20px;
+}
+h4{
+    margin-top: 10px;
+    font-family: courier;
+    font-size: 14px;
+}
+.login-wrapper .box-form{
+    padding:20px;
+    display:block;
+    height: 100%;
+    align-items: center;
+    position:relative;
+    background-color: white;
+}
+.login-wrapper .inner{
+    margin: auto;
+    display: block;
+    max-width: 350px;
+
+}
+.forms-group{
+    margin-bottom: 30px;
+}
+.forms-group .label-text{
+    font-size: 16px;
+    margin-top:10px;
+}
+.forms-group .forms-control{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    height: 60px;
+    outline:none;
+    border: none;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+ .check-action{
+    text-decoration: none;
+    color: purple;
+    font-size: 15px;
+    margin-left: 40px;
+}
+.btn-sign-in .btn-1{
+    display:block;
+    cursor: pointer;
+    padding: 20px;
+    width:100%;
+    background-color:blueviolet;
+    border: none;
+    border: 1px solid grey;
+    border-radius: 10px;
+    margin-top: 30px;
+    color: white;
+}
+.btn-sign-in img{
+    cursor: pointer;
+    object-fit: contain;
+    width: 15px;
+    height:15px;
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: 5px;
+}
+.btn-sign-in .btn-2{
+    display: block;
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 30px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+.action{
+    margin-left:80px;
+}
+.action .action-1{
+    text-decoration: none;
+    color: purple;
+    margin-left: 10px;
+}
+@media screen and (max-width:370px){
+     body{
+        width: 100%;
+        height: auto;
+     }
+     .login-wrapper .inner{
+        max-width:300px;
+     }
+     h2{
+        margin-top: 5px;
+     }
+     h4{
+        margin-top: 5px;
+     }
+     .forms-group .forms-control{
+        width: 100%;
+        padding: 10px;
+        height: 45px;
+     }
+     .btn-sign-in .btn-1{
+        height: 45px;
+        padding: 5px;
+    }
+    .btn-sign-in .btn-2{
+        height: 45px;
+        padding:5px ;
+    }
+    .action{
+        margin-left:50px;
+    }
+}
